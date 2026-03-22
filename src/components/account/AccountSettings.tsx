@@ -1,13 +1,9 @@
 import type { ReactNode } from 'react'
-import HeroIcons from '../icons/HeroIcons'
-
-const {
-  IconBell,
-  IconChevronRight,
-  IconContactSupport,
-  IconManageAccounts,
-  IconShield,
-} = HeroIcons
+import IconBell from '../icons/svg/IconBell.svg'
+import IconChevronRight from '../icons/svg/IconChevronRight.svg'
+import IconContactSupport from '../icons/svg/IconContactSupport.svg'
+import IconManageAccounts from '../icons/svg/IconManageAccounts.svg'
+import IconShield from '../icons/svg/IconShield.svg'
 
 type TSettingsRow = {
   id: string

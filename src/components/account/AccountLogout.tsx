@@ -1,6 +1,4 @@
-import HeroIcons from '../icons/HeroIcons'
-
-const { IconLogout } = HeroIcons
+import IconLogout from '../icons/svg/IconLogout.svg'
 
 const AccountLogout = () => (
   <section className="pt-8">

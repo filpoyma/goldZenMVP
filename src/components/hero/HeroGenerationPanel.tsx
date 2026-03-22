@@ -1,7 +1,6 @@
 import heroSketchThumb from '../../assets/hero-sketch-thumb.png'
-import HeroIcons from '../icons/HeroIcons'
-
-const { IconAddCircle, IconMic } = HeroIcons
+import IconAddCircle from '../icons/svg/IconAddCircle.svg'
+import IconMic from '../icons/svg/IconMic.svg'
 
 const HeroGenerationPanel = () => (
   <div className="relative w-full max-w-md">

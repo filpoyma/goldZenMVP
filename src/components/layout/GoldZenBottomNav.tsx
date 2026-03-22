@@ -1,7 +1,8 @@
 import type { TPrimaryTab } from '../../types/navigation'
-import HeroIcons from '../icons/HeroIcons'
-
-const { IconHub, IconPerson, IconSparkles, IconStories } = HeroIcons
+import IconHub from '../icons/svg/IconHub.svg'
+import IconPerson from '../icons/svg/IconPerson.svg'
+import IconSparkles from '../icons/svg/IconSparkles.svg'
+import IconStories from '../icons/svg/IconStories.svg'
 
 type TGoldZenBottomNavProps = {
   activeTab: TPrimaryTab

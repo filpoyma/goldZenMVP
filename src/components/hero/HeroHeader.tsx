@@ -1,6 +1,5 @@
-import HeroIcons from '../icons/HeroIcons'
-
-const { IconAccount, IconMenu } = HeroIcons
+import IconAccount from '../icons/svg/IconAccount.svg'
+import IconMenu from '../icons/svg/IconMenu.svg'
 
 const HeroHeader = () => (
   <header className="fixed top-0 z-50 flex w-full items-center justify-between bg-transparent px-6 py-4 backdrop-blur-xl">

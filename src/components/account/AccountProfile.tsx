@@ -1,7 +1,5 @@
 import accountProfile from '../../assets/account-profile.png'
-import HeroIcons from '../icons/HeroIcons'
-
-const { IconWorkspacePremium } = HeroIcons
+import IconWorkspacePremium from '../icons/svg/IconWorkspacePremium.svg'
 
 const AccountProfile = () => (
   <section className="flex flex-col items-center gap-8">

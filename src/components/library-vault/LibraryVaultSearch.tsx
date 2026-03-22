@@ -1,6 +1,5 @@
-import HeroIcons from '../icons/HeroIcons'
-
-const { IconMic, IconSearch } = HeroIcons
+import IconMic from '../icons/svg/IconMic.svg'
+import IconSearch from '../icons/svg/IconSearch.svg'
 
 const LibraryVaultSearch = () => (
   <section className="mb-12">

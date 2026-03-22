@@ -1,6 +1,5 @@
-import HeroIcons from '../icons/HeroIcons'
-
-const { IconDiamond, IconSparkles } = HeroIcons
+import IconDiamond from '../icons/svg/IconDiamond.svg'
+import IconSparkles from '../icons/svg/IconSparkles.svg'
 
 const HeroHighlightGrid = () => (
   <div className="mt-12 grid grid-cols-2 gap-4">

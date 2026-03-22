@@ -1,6 +1,4 @@
-import HeroIcons from '../icons/HeroIcons'
-
-const { IconAutoFixHigh } = HeroIcons
+import IconAutoFixHigh from '../icons/svg/IconAutoFixHigh.svg'
 
 const ProductShowcaseCurator = () => (
   <section className="glass-card relative mb-20 mt-12 overflow-hidden rounded-[3rem] border border-outline-variant/10 p-8 text-center">

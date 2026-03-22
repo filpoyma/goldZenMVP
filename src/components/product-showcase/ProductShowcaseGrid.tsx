@@ -2,9 +2,9 @@ import gridChronos from '../../assets/showcase-grid-chronos.png'
 import gridLunar from '../../assets/showcase-grid-lunar.png'
 import gridOrion from '../../assets/showcase-grid-orion.png'
 import gridSolaris from '../../assets/showcase-grid-solaris.png'
-import HeroIcons from '../icons/HeroIcons'
-
-const { IconHeartFilled, IconHeartOutline, IconIosShare } = HeroIcons
+import IconHeartFilled from '../icons/svg/IconHeartFilled.svg'
+import IconHeartOutline from '../icons/svg/IconHeartOutline.svg'
+import IconIosShare from '../icons/svg/IconIosShare.svg'
 
 type TGridItem = {
   id: string

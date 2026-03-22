@@ -1,9 +1,7 @@
 import vaultFeatured from '../../assets/vault-featured-ring.png'
 import vaultLunar from '../../assets/vault-lunar-band.png'
 import vaultAurelian from '../../assets/vault-aurelian-drop.png'
-import HeroIcons from '../icons/HeroIcons'
-
-const { Icon3dRotation } = HeroIcons
+import Icon3dRotation from '../icons/svg/Icon3dRotation.svg'
 
 const LibraryRecentCreations = () => (
   <section className="mb-16">

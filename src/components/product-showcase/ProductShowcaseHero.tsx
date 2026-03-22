@@ -1,7 +1,8 @@
 import showcaseHero from '../../assets/showcase-hero.png'
-import HeroIcons from '../icons/HeroIcons'
-
-const { IconClose, IconDownload, IconPushPin, IconShare } = HeroIcons
+import IconClose from '../icons/svg/IconClose.svg'
+import IconDownload from '../icons/svg/IconDownload.svg'
+import IconPushPin from '../icons/svg/IconPushPin.svg'
+import IconShare from '../icons/svg/IconShare.svg'
 
 const ProductShowcaseHero = () => (
   <section className="relative mb-12">
