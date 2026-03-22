@@ -1,5 +1,4 @@
 import { HeroBackground } from './HeroBackground'
-import { HeroBottomNav } from './HeroBottomNav'
 import { HeroFooterTagline } from './HeroFooterTagline'
 import { HeroGenerationPanel } from './HeroGenerationPanel'
 import { HeroHeader } from './HeroHeader'
@@ -17,7 +16,6 @@ export function HeroScreen() {
         <HeroHighlightGrid />
         <HeroFooterTagline />
       </main>
-      <HeroBottomNav />
     </>
   )
 }
