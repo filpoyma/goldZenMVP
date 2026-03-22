@@ -1,5 +1,5 @@
-import IconMic from '../icons/svg/IconMic.svg'
-import IconSearch from '../icons/svg/IconSearch.svg'
+import IconMic from '../icons/svg/IconMic.svg';
+import IconSearch from '../icons/svg/IconSearch.svg';
 
 const LibraryVaultSearch = () => (
   <section className="mb-12">
@@ -22,13 +22,12 @@ const LibraryVaultSearch = () => (
         <button
           type="button"
           className="cursor-pointer text-primary-fixed-dim"
-          aria-label="Voice input"
-        >
+          aria-label="Voice input">
           <IconMic className="h-5 w-5" />
         </button>
       </div>
     </div>
   </section>
-)
+);
 
-export default LibraryVaultSearch
+export default LibraryVaultSearch;

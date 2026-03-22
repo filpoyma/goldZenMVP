@@ -1,8 +1,8 @@
-import LibraryCollections from './LibraryCollections'
-import LibraryMaterialPresets from './LibraryMaterialPresets'
-import LibraryRecentCreations from './LibraryRecentCreations'
-import LibraryVaultHeader from './LibraryVaultHeader'
-import LibraryVaultSearch from './LibraryVaultSearch'
+import LibraryCollections from './LibraryCollections';
+import LibraryMaterialPresets from './LibraryMaterialPresets';
+import LibraryRecentCreations from './LibraryRecentCreations';
+import LibraryVaultHeader from './LibraryVaultHeader';
+import LibraryVaultSearch from './LibraryVaultSearch';
 
 const LibraryVaultScreen = () => (
   <div className="min-h-dvh bg-background text-on-background selection:bg-primary/30">
@@ -14,6 +14,6 @@ const LibraryVaultScreen = () => (
       <LibraryCollections />
     </main>
   </div>
-)
+);
 
-export default LibraryVaultScreen
+export default LibraryVaultScreen;

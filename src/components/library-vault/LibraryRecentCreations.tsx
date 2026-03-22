@@ -1,7 +1,7 @@
-import vaultFeatured from '../../assets/vault-featured-ring.png'
-import vaultLunar from '../../assets/vault-lunar-band.png'
-import vaultAurelian from '../../assets/vault-aurelian-drop.png'
-import Icon3dRotation from '../icons/svg/Icon3dRotation.svg'
+import vaultFeatured from '../../assets/vault-featured-ring.png';
+import vaultLunar from '../../assets/vault-lunar-band.png';
+import vaultAurelian from '../../assets/vault-aurelian-drop.png';
+import Icon3dRotation from '../icons/svg/Icon3dRotation.svg';
 
 const LibraryRecentCreations = () => (
   <section className="mb-16">
@@ -14,8 +14,7 @@ const LibraryRecentCreations = () => (
       </div>
       <button
         type="button"
-        className="border-b border-primary/30 pb-1 font-body text-sm font-normal uppercase tracking-widest text-primary"
-      >
+        className="border-b border-primary/30 pb-1 font-body text-sm font-normal uppercase tracking-widest text-primary">
         View All
       </button>
     </div>
@@ -43,11 +42,7 @@ const LibraryRecentCreations = () => (
       </article>
       <article className="flex items-center gap-4 rounded-3xl border border-outline-variant/10 bg-surface-container-low p-4">
         <div className="h-24 w-24 shrink-0 overflow-hidden rounded-2xl bg-surface-container-lowest">
-          <img
-            src={vaultLunar}
-            alt=""
-            className="h-full w-full object-cover opacity-70"
-          />
+          <img src={vaultLunar} alt="" className="h-full w-full object-cover opacity-70" />
         </div>
         <div>
           <h4 className="font-headline text-lg text-on-surface">Lunar Band #442</h4>
@@ -61,11 +56,7 @@ const LibraryRecentCreations = () => (
       </article>
       <article className="flex items-center gap-4 rounded-3xl border border-outline-variant/10 bg-surface-container-low p-4">
         <div className="h-24 w-24 shrink-0 overflow-hidden rounded-2xl bg-surface-container-lowest">
-          <img
-            src={vaultAurelian}
-            alt=""
-            className="h-full w-full object-cover opacity-70"
-          />
+          <img src={vaultAurelian} alt="" className="h-full w-full object-cover opacity-70" />
         </div>
         <div>
           <h4 className="font-headline text-lg text-on-surface">Aurelian Drop #12</h4>
@@ -79,6 +70,6 @@ const LibraryRecentCreations = () => (
       </article>
     </div>
   </section>
-)
+);
 
-export default LibraryRecentCreations
+export default LibraryRecentCreations;

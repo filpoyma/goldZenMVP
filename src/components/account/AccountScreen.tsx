@@ -1,8 +1,8 @@
-import AccountHeader from './AccountHeader'
-import AccountLogout from './AccountLogout'
-import AccountProfile from './AccountProfile'
-import AccountSettings from './AccountSettings'
-import AccountStats from './AccountStats'
+import AccountHeader from './AccountHeader';
+import AccountLogout from './AccountLogout';
+import AccountProfile from './AccountProfile';
+import AccountSettings from './AccountSettings';
+import AccountStats from './AccountStats';
 
 const AccountScreen = () => (
   <div className="min-h-dvh bg-surface text-on-surface selection:bg-primary-container/30">
@@ -14,6 +14,6 @@ const AccountScreen = () => (
       <AccountLogout />
     </main>
   </div>
-)
+);
 
-export default AccountScreen
+export default AccountScreen;

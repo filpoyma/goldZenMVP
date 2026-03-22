@@ -4,6 +4,6 @@ const HeroFooterTagline = () => (
       Refining your vision through neural craftsmanship
     </p>
   </div>
-)
+);
 
-export default HeroFooterTagline
+export default HeroFooterTagline;

@@ -1,5 +1,5 @@
-import vaultEthereal from '../../assets/vault-collection-ethereal.png'
-import vaultMinimal from '../../assets/vault-collection-minimal.png'
+import vaultEthereal from '../../assets/vault-collection-ethereal.png';
+import vaultMinimal from '../../assets/vault-collection-minimal.png';
 
 const LibraryCollections = () => (
   <section>
@@ -56,6 +56,6 @@ const LibraryCollections = () => (
       </article>
     </div>
   </section>
-)
+);
 
-export default LibraryCollections
+export default LibraryCollections;

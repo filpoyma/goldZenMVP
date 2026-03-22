@@ -23,7 +23,7 @@ const swatches = [
     gradient: 'from-[#D9D9D9] via-[#8E8E8E] to-[#4A4A4A]',
     shadow: 'shadow-[0_4px_20px_rgba(0,0,0,0.3)]',
   },
-] as const
+] as const;
 
 const LibraryMaterialPresets = () => (
   <section className="mb-16">
@@ -38,11 +38,9 @@ const LibraryMaterialPresets = () => (
         <button
           key={id}
           type="button"
-          className="group flex cursor-pointer flex-col items-center gap-4"
-        >
+          className="group flex cursor-pointer flex-col items-center gap-4">
           <div
-            className={`h-20 w-20 rounded-full bg-gradient-to-br p-1 ring-2 ring-transparent transition-all group-hover:ring-primary/50 ${gradient} ${shadow}`}
-          >
+            className={`h-20 w-20 rounded-full bg-gradient-to-br p-1 ring-2 ring-transparent transition-all group-hover:ring-primary/50 ${gradient} ${shadow}`}>
             <div className="h-full w-full rounded-full border border-white/20" />
           </div>
           <span className="font-body text-xs font-bold uppercase tracking-widest text-on-surface-variant transition-colors group-hover:text-primary">
@@ -52,6 +50,6 @@ const LibraryMaterialPresets = () => (
       ))}
     </div>
   </section>
-)
+);
 
-export default LibraryMaterialPresets
+export default LibraryMaterialPresets;

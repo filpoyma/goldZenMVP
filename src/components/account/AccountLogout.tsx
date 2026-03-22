@@ -1,11 +1,10 @@
-import IconLogout from '../icons/svg/IconLogout.svg'
+import IconLogout from '../icons/svg/IconLogout.svg';
 
 const AccountLogout = () => (
   <section className="pt-8">
     <button
       type="button"
-      className="flex w-full items-center justify-center gap-3 rounded-full border border-error/30 py-5 font-body text-xs font-bold uppercase tracking-[0.2rem] text-error transition-colors hover:bg-error/5"
-    >
+      className="flex w-full items-center justify-center gap-3 rounded-full border border-error/30 py-5 font-body text-xs font-bold uppercase tracking-[0.2rem] text-error transition-colors hover:bg-error/5">
       <IconLogout className="h-4 w-4" />
       Log Out
     </button>
@@ -13,6 +12,6 @@ const AccountLogout = () => (
       Version 4.2.0-Alpha • The Digital Atelier
     </p>
   </section>
-)
+);
 
-export default AccountLogout
+export default AccountLogout;

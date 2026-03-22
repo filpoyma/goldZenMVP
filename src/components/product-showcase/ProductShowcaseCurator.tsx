@@ -1,4 +1,4 @@
-import IconAutoFixHigh from '../icons/svg/IconAutoFixHigh.svg'
+import IconAutoFixHigh from '../icons/svg/IconAutoFixHigh.svg';
 
 const ProductShowcaseCurator = () => (
   <section className="glass-card relative mb-20 mt-12 overflow-hidden rounded-[3rem] border border-outline-variant/10 p-8 text-center">
@@ -12,12 +12,11 @@ const ProductShowcaseCurator = () => (
       </p>
       <button
         type="button"
-        className="rounded-full border border-primary px-8 py-3 text-[10px] font-bold uppercase tracking-widest text-primary transition-all hover:bg-primary/10 active:scale-95"
-      >
+        className="rounded-full border border-primary px-8 py-3 text-[10px] font-bold uppercase tracking-widest text-primary transition-all hover:bg-primary/10 active:scale-95">
         Explore Recommendations
       </button>
     </div>
   </section>
-)
+);
 
-export default ProductShowcaseCurator
+export default ProductShowcaseCurator;

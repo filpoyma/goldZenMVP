@@ -1,9 +1,9 @@
-import HeroBackground from './HeroBackground'
-import HeroFooterTagline from './HeroFooterTagline'
-import HeroGenerationPanel from './HeroGenerationPanel'
-import HeroHeader from './HeroHeader'
-import HeroHeadline from './HeroHeadline'
-import HeroHighlightGrid from './HeroHighlightGrid'
+import HeroBackground from './HeroBackground';
+import HeroFooterTagline from './HeroFooterTagline';
+import HeroGenerationPanel from './HeroGenerationPanel';
+import HeroHeader from './HeroHeader';
+import HeroHeadline from './HeroHeadline';
+import HeroHighlightGrid from './HeroHighlightGrid';
 
 const HeroScreen = () => (
   <>
@@ -16,6 +16,6 @@ const HeroScreen = () => (
       <HeroFooterTagline />
     </main>
   </>
-)
+);
 
-export default HeroScreen
+export default HeroScreen;

@@ -7,6 +7,6 @@ const HeroHeadline = () => (
       AI-Driven Sanctuary For The Rare And Exquisite
     </p>
   </section>
-)
+);
 
-export default HeroHeadline
+export default HeroHeadline;

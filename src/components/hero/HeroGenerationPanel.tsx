@@ -1,6 +1,6 @@
-import heroSketchThumb from '../../assets/hero-sketch-thumb.png'
-import IconAddCircle from '../icons/svg/IconAddCircle.svg'
-import IconMic from '../icons/svg/IconMic.svg'
+import heroSketchThumb from '../../assets/hero-sketch-thumb.png';
+import IconAddCircle from '../icons/svg/IconAddCircle.svg';
+import IconMic from '../icons/svg/IconMic.svg';
 
 const HeroGenerationPanel = () => (
   <div className="relative w-full max-w-md">
@@ -11,8 +11,7 @@ const HeroGenerationPanel = () => (
             <button
               type="button"
               className="ai-pulse flex h-12 w-12 cursor-pointer items-center justify-center rounded-full border border-primary/30 text-primary"
-              aria-label="Voice input"
-            >
+              aria-label="Voice input">
               <IconMic className="h-6 w-6" />
             </button>
           </div>
@@ -34,8 +33,7 @@ const HeroGenerationPanel = () => (
           <div className="flex items-center gap-4">
             <button
               type="button"
-              className="flex items-center gap-2 rounded-full text-xs font-bold uppercase tracking-widest text-primary/70 transition-colors hover:text-primary"
-            >
+              className="flex items-center gap-2 rounded-full text-xs font-bold uppercase tracking-widest text-primary/70 transition-colors hover:text-primary">
               <IconAddCircle className="h-6 w-6 shrink-0" />
               Upload Sketch
             </button>
@@ -51,14 +49,13 @@ const HeroGenerationPanel = () => (
           </div>
           <button
             type="button"
-            className="bg-gold-gradient rounded-full px-8 py-3 text-xs font-bold uppercase tracking-widest text-on-primary shadow-lg shadow-primary-container/20 transition-transform active:scale-95"
-          >
+            className="bg-gold-gradient rounded-full px-8 py-3 text-xs font-bold uppercase tracking-widest text-on-primary shadow-lg shadow-primary-container/20 transition-transform active:scale-95">
             Create
           </button>
         </div>
       </div>
     </div>
   </div>
-)
+);
 
-export default HeroGenerationPanel
+export default HeroGenerationPanel;

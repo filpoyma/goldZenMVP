@@ -1,1 +1,1 @@
-export type TPrimaryTab = 'generate' | 'library' | 'social' | 'account'
+export type TPrimaryTab = 'generate' | 'library' | 'social' | 'account';

@@ -1,5 +1,5 @@
-import IconDiamond from '../icons/svg/IconDiamond.svg'
-import IconSparkles from '../icons/svg/IconSparkles.svg'
+import IconDiamond from '../icons/svg/IconDiamond.svg';
+import IconSparkles from '../icons/svg/IconSparkles.svg';
 
 const HeroHighlightGrid = () => (
   <div className="mt-12 grid grid-cols-2 gap-4">
@@ -20,6 +20,6 @@ const HeroHighlightGrid = () => (
       </p>
     </article>
   </div>
-)
+);
 
-export default HeroHighlightGrid
+export default HeroHighlightGrid;

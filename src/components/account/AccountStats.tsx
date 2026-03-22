@@ -22,8 +22,7 @@ const AccountStats = () => (
       <div className="relative z-10 mt-6">
         <button
           type="button"
-          className="rounded-full bg-on-primary px-8 py-3 font-body text-xs font-bold uppercase tracking-widest text-primary transition-transform hover:scale-105"
-        >
+          className="rounded-full bg-on-primary px-8 py-3 font-body text-xs font-bold uppercase tracking-widest text-primary transition-transform hover:scale-105">
           Top Up Credits
         </button>
       </div>
@@ -33,6 +32,6 @@ const AccountStats = () => (
       />
     </div>
   </section>
-)
+);
 
-export default AccountStats
+export default AccountStats;

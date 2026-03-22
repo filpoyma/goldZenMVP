@@ -1,15 +1,11 @@
-import accountProfile from '../../assets/account-profile.png'
-import IconWorkspacePremium from '../icons/svg/IconWorkspacePremium.svg'
+import accountProfile from '../../assets/account-profile.png';
+import IconWorkspacePremium from '../icons/svg/IconWorkspacePremium.svg';
 
 const AccountProfile = () => (
   <section className="flex flex-col items-center gap-8">
     <div className="group relative">
       <div className="h-32 w-32 overflow-hidden rounded-full border-2 border-primary-container bg-surface-container-low p-1 md:h-40 md:w-40">
-        <img
-          src={accountProfile}
-          alt=""
-          className="h-full w-full rounded-full object-cover"
-        />
+        <img src={accountProfile} alt="" className="h-full w-full rounded-full object-cover" />
       </div>
       <div className="bg-gold-gradient absolute -bottom-2 -right-2 rounded-full p-2 text-on-primary shadow-lg">
         <IconWorkspacePremium className="h-4 w-4" />
@@ -29,6 +25,6 @@ const AccountProfile = () => (
       </p>
     </div>
   </section>
-)
+);
 
-export default AccountProfile
+export default AccountProfile;

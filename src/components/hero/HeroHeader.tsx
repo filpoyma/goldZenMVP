@@ -1,5 +1,5 @@
-import IconAccount from '../icons/svg/IconAccount.svg'
-import IconMenu from '../icons/svg/IconMenu.svg'
+import IconAccount from '../icons/svg/IconAccount.svg';
+import IconMenu from '../icons/svg/IconMenu.svg';
 
 const HeroHeader = () => (
   <header className="fixed top-0 z-50 flex w-full items-center justify-between bg-transparent px-6 py-4 backdrop-blur-xl">
@@ -7,8 +7,7 @@ const HeroHeader = () => (
       <button
         type="button"
         className="scale-95 cursor-pointer text-primary-container transition-opacity hover:opacity-80 active:duration-150"
-        aria-label="Open menu"
-      >
+        aria-label="Open menu">
         <IconMenu className="h-6 w-6" />
       </button>
     </div>
@@ -19,12 +18,11 @@ const HeroHeader = () => (
       <button
         type="button"
         className="scale-95 cursor-pointer text-primary-container transition-opacity hover:opacity-80 active:duration-150"
-        aria-label="Account"
-      >
+        aria-label="Account">
         <IconAccount className="h-6 w-6" />
       </button>
     </div>
   </header>
-)
+);
 
-export default HeroHeader
+export default HeroHeader;

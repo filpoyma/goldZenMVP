@@ -1,5 +1,5 @@
-import IconMenu from '../icons/svg/IconMenu.svg'
-import IconSparkles from '../icons/svg/IconSparkles.svg'
+import IconMenu from '../icons/svg/IconMenu.svg';
+import IconSparkles from '../icons/svg/IconSparkles.svg';
 
 const LibraryVaultHeader = () => (
   <header className="fixed top-0 z-50 flex w-full items-center justify-between bg-transparent px-6 py-4 backdrop-blur-xl">
@@ -7,8 +7,7 @@ const LibraryVaultHeader = () => (
       <button
         type="button"
         className="scale-95 cursor-pointer text-primary-container transition-opacity hover:opacity-80 active:duration-150"
-        aria-label="Open menu"
-      >
+        aria-label="Open menu">
         <IconMenu className="h-6 w-6" />
       </button>
     </div>
@@ -19,12 +18,11 @@ const LibraryVaultHeader = () => (
       <button
         type="button"
         className="scale-95 cursor-pointer text-primary-container transition-opacity hover:opacity-80 active:duration-150"
-        aria-label="AI assistant"
-      >
+        aria-label="AI assistant">
         <IconSparkles className="h-6 w-6" />
       </button>
     </div>
   </header>
-)
+);
 
-export default LibraryVaultHeader
+export default LibraryVaultHeader;
