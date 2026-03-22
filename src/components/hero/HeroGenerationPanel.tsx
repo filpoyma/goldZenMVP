@@ -11,21 +11,21 @@ export function HeroGenerationPanel() {
               <button
                 type="button"
                 className="ai-pulse flex h-12 w-12 cursor-pointer items-center justify-center rounded-full border border-primary/30 text-primary"
-                aria-label="Voice search"
+                aria-label="Voice input"
               >
                 <IconMic className="h-6 w-6" />
               </button>
             </div>
             <div className="flex-1">
               <label className="sr-only" htmlFor="hero-search">
-                Search jewelry and sellers
+                Jewelry prompt
               </label>
               <input
                 id="hero-search"
-                name="search"
+                name="prompt"
                 className="w-full rounded-full border-none bg-surface-container-lowest py-3 pl-6 pr-6 text-on-surface outline-none transition-all placeholder:text-on-surface-variant/40 focus:ring-1 focus:ring-surface-tint/50"
-                placeholder="Search rings, necklaces, trusted sellers..."
-                type="search"
+                placeholder="Imagine a rose gold tiara..."
+                type="text"
                 autoComplete="off"
               />
             </div>
@@ -37,7 +37,7 @@ export function HeroGenerationPanel() {
                 className="flex items-center gap-2 rounded-full text-xs font-bold uppercase tracking-widest text-primary/70 transition-colors hover:text-primary"
               >
                 <IconAddCircle className="h-6 w-6 shrink-0" />
-                List your piece
+                Upload Sketch
               </button>
               <div className="h-10 w-10 overflow-hidden rounded-full border border-outline-variant/20 bg-surface-container">
                 <img
@@ -53,7 +53,7 @@ export function HeroGenerationPanel() {
               type="button"
               className="bg-gold-gradient rounded-full px-8 py-3 text-xs font-bold uppercase tracking-widest text-on-primary shadow-lg shadow-primary-container/20 transition-transform active:scale-95"
             >
-              Search
+              Create
             </button>
           </div>
         </div>

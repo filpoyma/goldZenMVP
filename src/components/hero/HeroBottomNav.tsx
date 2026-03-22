@@ -7,20 +7,20 @@ import {
 
 const navItems = [
   {
-    id: 'discover',
-    label: 'Discover',
+    id: 'generate',
+    label: 'Generate',
     icon: IconSparkles,
     active: true,
   },
   {
-    id: 'browse',
-    label: 'Browse',
+    id: 'library',
+    label: 'Library',
     icon: IconStories,
     active: false,
   },
   {
-    id: 'connect',
-    label: 'Connect',
+    id: 'social',
+    label: 'Social',
     icon: IconHub,
     active: false,
   },
