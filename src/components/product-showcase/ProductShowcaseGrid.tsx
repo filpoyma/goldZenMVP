@@ -2,11 +2,9 @@ import gridChronos from '../../assets/showcase-grid-chronos.png'
 import gridLunar from '../../assets/showcase-grid-lunar.png'
 import gridOrion from '../../assets/showcase-grid-orion.png'
 import gridSolaris from '../../assets/showcase-grid-solaris.png'
-import {
-  IconHeartFilled,
-  IconHeartOutline,
-  IconIosShare,
-} from '../icons/HeroIcons'
+import HeroIcons from '../icons/HeroIcons'
+
+const { IconHeartFilled, IconHeartOutline, IconIosShare } = HeroIcons
 
 type TGridItem = {
   id: string
@@ -47,68 +45,66 @@ const items: TGridItem[] = [
   },
 ]
 
-function GridCard({
+const GridCard = ({
   imageSrc,
   username,
   title,
   favoriteFilled,
-}: Omit<TGridItem, 'id'>) {
-  return (
-    <div className="flex flex-col gap-3">
-      <div className="group relative aspect-[4/5] overflow-hidden rounded-2xl bg-surface-container">
-        <img
-          src={imageSrc}
-          alt=""
-          className="h-full w-full object-cover grayscale-[30%] transition-all duration-500 group-hover:grayscale-0"
-        />
-        <div className="absolute right-2 top-2">
-          <button
-            type="button"
-            className="flex h-8 w-8 items-center justify-center rounded-full bg-surface/40 text-white backdrop-blur-md transition-transform active:scale-75"
-            aria-label="Favorite"
-          >
-            {favoriteFilled ? (
-              <IconHeartFilled className="h-3.5 w-3.5" />
-            ) : (
-              <IconHeartOutline className="h-3.5 w-3.5" />
-            )}
-          </button>
-        </div>
-      </div>
-      <div className="px-1">
-        <p className="mb-1 text-[10px] font-medium text-on-surface-variant">{username}</p>
-        <div className="flex items-center justify-between">
-          <span className="truncate font-headline text-xs font-bold">{title}</span>
-          <button
-            type="button"
-            className="text-on-surface-variant transition-colors hover:text-primary"
-            aria-label="Share"
-          >
-            <IconIosShare className="h-3.5 w-3.5" />
-          </button>
-        </div>
-      </div>
-    </div>
-  )
-}
-
-export function ProductShowcaseGrid() {
-  return (
-    <section className="mb-8">
-      <div className="mb-6 flex items-end justify-between">
-        <h3 className="font-headline text-xl font-bold">Recent Creations</h3>
+}: Omit<TGridItem, 'id'>) => (
+  <div className="flex flex-col gap-3">
+    <div className="group relative aspect-[4/5] overflow-hidden rounded-2xl bg-surface-container">
+      <img
+        src={imageSrc}
+        alt=""
+        className="h-full w-full object-cover grayscale-[30%] transition-all duration-500 group-hover:grayscale-0"
+      />
+      <div className="absolute right-2 top-2">
         <button
           type="button"
-          className="cursor-pointer rounded-full bg-primary/5 px-3 py-1 text-[10px] uppercase tracking-widest text-primary hover:underline"
+          className="flex h-8 w-8 items-center justify-center rounded-full bg-surface/40 text-white backdrop-blur-md transition-transform active:scale-75"
+          aria-label="Favorite"
         >
-          View All
+          {favoriteFilled ? (
+            <IconHeartFilled className="h-3.5 w-3.5" />
+          ) : (
+            <IconHeartOutline className="h-3.5 w-3.5" />
+          )}
         </button>
       </div>
-      <div className="grid grid-cols-2 gap-4">
-        {items.map(({ id, ...rest }) => (
-          <GridCard key={id} {...rest} />
-        ))}
+    </div>
+    <div className="px-1">
+      <p className="mb-1 text-[10px] font-medium text-on-surface-variant">{username}</p>
+      <div className="flex items-center justify-between">
+        <span className="truncate font-headline text-xs font-bold">{title}</span>
+        <button
+          type="button"
+          className="text-on-surface-variant transition-colors hover:text-primary"
+          aria-label="Share"
+        >
+          <IconIosShare className="h-3.5 w-3.5" />
+        </button>
       </div>
-    </section>
-  )
-}
+    </div>
+  </div>
+)
+
+const ProductShowcaseGrid = () => (
+  <section className="mb-8">
+    <div className="mb-6 flex items-end justify-between">
+      <h3 className="font-headline text-xl font-bold">Recent Creations</h3>
+      <button
+        type="button"
+        className="cursor-pointer rounded-full bg-primary/5 px-3 py-1 text-[10px] uppercase tracking-widest text-primary hover:underline"
+      >
+        View All
+      </button>
+    </div>
+    <div className="grid grid-cols-2 gap-4">
+      {items.map(({ id, ...rest }) => (
+        <GridCard key={id} {...rest} />
+      ))}
+    </div>
+  </section>
+)
+
+export default ProductShowcaseGrid

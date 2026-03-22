@@ -25,33 +25,33 @@ const swatches = [
   },
 ] as const
 
-export function LibraryMaterialPresets() {
-  return (
-    <section className="mb-16">
-      <div className="mb-8">
-        <span className="mb-2 block font-body text-[10px] uppercase tracking-[0.2rem] text-primary-fixed-dim">
-          Finishes
-        </span>
-        <h2 className="font-headline text-3xl italic text-on-surface">Material Presets</h2>
-      </div>
-      <div className="flex flex-wrap gap-8">
-        {swatches.map(({ id, label, gradient, shadow }) => (
-          <button
-            key={id}
-            type="button"
-            className="group flex cursor-pointer flex-col items-center gap-4"
+const LibraryMaterialPresets = () => (
+  <section className="mb-16">
+    <div className="mb-8">
+      <span className="mb-2 block font-body text-[10px] uppercase tracking-[0.2rem] text-primary-fixed-dim">
+        Finishes
+      </span>
+      <h2 className="font-headline text-3xl italic text-on-surface">Material Presets</h2>
+    </div>
+    <div className="flex flex-wrap gap-8">
+      {swatches.map(({ id, label, gradient, shadow }) => (
+        <button
+          key={id}
+          type="button"
+          className="group flex cursor-pointer flex-col items-center gap-4"
+        >
+          <div
+            className={`h-20 w-20 rounded-full bg-gradient-to-br p-1 ring-2 ring-transparent transition-all group-hover:ring-primary/50 ${gradient} ${shadow}`}
           >
-            <div
-              className={`h-20 w-20 rounded-full bg-gradient-to-br p-1 ring-2 ring-transparent transition-all group-hover:ring-primary/50 ${gradient} ${shadow}`}
-            >
-              <div className="h-full w-full rounded-full border border-white/20" />
-            </div>
-            <span className="font-body text-xs font-bold uppercase tracking-widest text-on-surface-variant transition-colors group-hover:text-primary">
-              {label}
-            </span>
-          </button>
-        ))}
-      </div>
-    </section>
-  )
-}
+            <div className="h-full w-full rounded-full border border-white/20" />
+          </div>
+          <span className="font-body text-xs font-bold uppercase tracking-widest text-on-surface-variant transition-colors group-hover:text-primary">
+            {label}
+          </span>
+        </button>
+      ))}
+    </div>
+  </section>
+)
+
+export default LibraryMaterialPresets
