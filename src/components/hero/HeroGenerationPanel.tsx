@@ -3,7 +3,7 @@ import IconAddCircle from '../icons/svg/IconAddCircle.svg';
 import IconMic from '../icons/svg/IconMic.svg';
 
 const HeroGenerationPanel = () => (
-  <div className="relative w-full max-w-md">
+  <div className="relative max-w-content">
     <div className="glass-panel rounded-[2rem] border border-outline-variant/20 p-4 shadow-2xl">
       <div className="flex flex-col gap-4">
         <div className="flex items-center gap-3">

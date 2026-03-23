@@ -9,7 +9,7 @@ const HeroScreen = () => (
   <>
     <HeroHeader />
     <HeroBackground />
-    <main className="relative flex min-h-screen flex-col items-center px-6 pb-32 pt-24">
+    <main className="relative mx-auto flex min-h-screen w-full max-w-content flex-col items-center px-6 pb-32 pt-24">
       <HeroHeadline />
       <HeroGenerationPanel />
       <HeroHighlightGrid />

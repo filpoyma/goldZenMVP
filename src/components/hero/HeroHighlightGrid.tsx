@@ -2,7 +2,7 @@ import IconDiamond from '../icons/svg/IconDiamond.svg';
 import IconSparkles from '../icons/svg/IconSparkles.svg';
 
 const HeroHighlightGrid = () => (
-  <div className="mt-12 grid grid-cols-2 gap-4">
+  <div className="max-w-content mt-12 grid grid-cols-2 gap-4">
     <article className="glass-panel group relative overflow-hidden rounded-[2rem] border border-outline-variant/10 p-6">
       <div className="absolute -right-4 -top-4 h-20 w-20 rounded-full bg-primary/5 blur-2xl transition-colors group-hover:bg-primary/10" />
       <IconSparkles className="mb-3 h-8 w-8 text-primary" />

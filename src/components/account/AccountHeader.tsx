@@ -11,7 +11,7 @@ const AccountHeader = () => (
         <IconMenu className="h-6 w-6" />
       </button>
     </div>
-    <p className="font-headline max-w-[14rem] text-center text-sm font-bold uppercase leading-tight tracking-tight text-primary-container sm:max-w-none sm:text-2xl">
+    <p className="font-headline text-2xl font-bold uppercase tracking-[0.2em] text-primary-container">
       THE DIGITAL ATELIER
     </p>
     <div className="flex items-center gap-4">
