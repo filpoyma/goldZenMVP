@@ -3,6 +3,8 @@ import { store } from '../store';
 import { API_URL } from '../constants/api.constants';
 import { isDev } from '../constants/app.constants.ts';
 
+console.log('file-baseApi.ts API_URL:', API_URL);
+
 const baseApi = ky.create({
   prefixUrl: API_URL,
   timeout: 15000,
